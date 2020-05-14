@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+body {
+  font-family: Helvetica;
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: gray;
+  }
+}
+
