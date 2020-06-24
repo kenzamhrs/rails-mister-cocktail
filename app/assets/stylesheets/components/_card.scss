@@ -7,6 +7,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-item: center;
 }
 
 .card-description {
@@ -29,3 +30,25 @@
   opacity: 0.1;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cocktail-card {
+    position: absolute;
+    // top: 100px;
+    right: 100px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.new-cocktail-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 360px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
